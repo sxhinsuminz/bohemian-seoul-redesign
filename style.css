@@ -42,6 +42,21 @@ html,body {
   padding:0;
 }
 
+/* 헤더 - 메뉴 st*/
+.header{
+  color:rgba(0,0,0,0.5);
+  width:100%;
+  height: 64px;
+  align-items:center;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.header>.menu-bar>.menu{
+  color : black;
+}
+/* header. menu ed  */
+/* 스와이퍼 st */
 .swiper {
   width: 100%;
   height: 1000px;
@@ -61,7 +76,7 @@ html,body {
 }
 
 .swiper-wrapper > .slide-2 {
-  background-color:#92A9BD;
+  background-color:white;
   
 }
 .swiper-wrapper > .slide-3 {
@@ -69,30 +84,14 @@ html,body {
   
 }
 
+/* 스와이퍼 ed */
+
+/* footer st  */
 .footer{
   width:100%;
   height: 322px;
   background-color:white;
 }
-.body > .menu{
-  width:100%;
-  height: 61px;
-  background-color:white;
-  display: flex;
-  positioln:relative;
-  top : 0;
-  left : 0;
-}
-.logo-box{
-  width: 358px;
-  height: 64px;
-  background-color:#777;
-} 
-.body > .menu > .menu-box{
-  width:706;
-  height:61px;
-  background-color:#555;
-}
-.swiper>.swiper-wrapper>.slide-1{
-  background-image : src(./re-design)
-}
+
+
+/* footer ed  */
